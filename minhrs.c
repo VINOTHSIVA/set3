@@ -1,10 +1,10 @@
 #include<stdio.h>
 void main()
 {
-int min,hours,a;
+int min,hours,x;
 printf("enter the minute");
-scanf("%d",&a);
-hours=a/60;
-min=a%60;
+scanf("%d",&x);
+hours=x/60;
+min=x%60;
 printf("%d\t%d",hours,min);
 }
